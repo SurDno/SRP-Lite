@@ -25,6 +25,7 @@ Changes:
 - Fixed the issue where loading a savegame would make the game copy offered but unassigned combat tasks to a Lua table intended only for assigned combat tasks, causing various bugs ranging from stuck faction wars to the robbery scheme ceasing to activate. - Decane
 - Fixed eight stash coordinates being unattainable from the following characters due to programming mistakes: Drifter (1), General Krylov (2), Hermit (1), Hound (1), Kolobok (1), Mitay (1), Semyon Lambee (1). Notably, Drifter now offers coordinates to a stash containing the third Cordon flash drive if the player saves him from dogs. - Decane
 - Fixed the issue where new faction equipment chest supplies would spawn on smart terrains occupied by an online squad every time the game is loaded. (Supplies are supposed to spawn only when an online squad first enters a smart terrain.) - Decane
+- Fixed the wrong location-based multiplier being used to spawn faction equipment chest supplies for scripted squads loaded from a savegame (as opposed to spawning into the Zone in the current game session). - Decane
 - Fixed the script bugs responsible for Drifter and Hound dying upon switching online from an offline state following completion of the tasks to escort them to safety. - Decane
 - Fixed the issue where the dogs spawned for Wolf's "Help the stalker" task might never attack Drifter if the player picks up Sidorovich's loot before taking the task. - Decane
 - Fixed the issue where the stalker squad overlooking the Cordon vehicle station would not budge when they are supposed to raid it alongside the player in exchange for payment if Valerian has not yet tasked the player with assaulting it as part of the main storyline (new game required for effect). - Decane
@@ -59,4 +60,4 @@ Changes:
 - Fixed the Bandit Jacket using the Sunrise Suit HUD model. The Bandit Jacket now has its own unique HUD model, imported from S.T.A.L.K.E.R. - Call of Pripyat. - Decane, GSC Game World
 - Fixed the SEVA Suit using the Bulat Armored Suit HUD model. The SEVA Suit now has its own unique HUD model, imported from S.T.A.L.K.E.R. - Call of Pripyat. - Decane, GSC Game World
 - Replaced the generic masked face of the player's unarmored character model with Scar's face, as in the leather jacket armored character model (new game required for effect). - Decane
-- Removed the Akm 74/2 introduced into Scar's starting inventory by patch v1.5.10 (new game required for effect). - Decane
+- Removed the Akm 74/2 introduced into Scar's starting inventory by patch v1.5.09 (new game required for effect). - Decane
